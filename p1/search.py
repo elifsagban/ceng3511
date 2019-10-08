@@ -40,3 +40,11 @@ filehandle.close()
 #
 #
 # bfs_connected_component(graph, 'A')  # returns ['A', 'B', 'C', 'E', 'D', 'F', 'G']
+
+
+
+
+
+#string1 - Result: 3.11899876595
+#string2 - Result: 2.78014397621
+#The above results are a product of the lowest

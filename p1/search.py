@@ -13,7 +13,7 @@ while True:
     result = re.findall(r'\d+', line)
     print(result)
 
-# close the pointer to that file
+# test2
 filehandle.close()
 #
 #

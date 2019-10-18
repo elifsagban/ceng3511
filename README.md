@@ -20,11 +20,20 @@ _Group Members:_
 
 ## Uniform Cost Search
 
-- searches in branches which are more or less the same in cost.
+- Searches in branches which are more or less the same in cost.
 
 
 ### About Project I
 
-the code should accept the given graph from the terminal and the three algorithms should search and find the shortest path.
+The code should accept the given graph from the terminal and the three algorithms should search and find the shortest path.
+
+
+### Resources
+
+https://repl.it/@pn49571/shortest-distance-Breadth-first-search
+
+https://medium.com/@akshdeep.sharma1/dfs-bfs-coding-blog-week-10-619175d9469
+
+https://rextester.com/GDQAJ78015
 
 

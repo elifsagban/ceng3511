@@ -142,17 +142,34 @@ def ucs(graph, initial, end):
 
 ####### DEPTH FIRST SEARCH #######
 def dfs_paths(graph, start, goal):
-    stack = [(start, [start])]
-    visited = set()
-    while stack:
-        (vertex, path) = stack.pop()
-        if vertex not in visited:
+   
+    path = []
+    queue = [start]
+
+    while queue:
+        vertex = queue.pop(0)
+        if vertex not in path:
+            
+            queue.extend((graph[vertex]))
+            path.append(vertex)
             if vertex == goal:
                 return path
-            visited.add(vertex)
-            for neighbor in graph[vertex]:
-                stack.append((neighbor, path + [neighbor]))
+                """
+                def dfs_paths(graph, start, goal):
+                stack = [(start, [start])]
+                visited = set()
+                while stack:
+                    (vertex, path) = stack.pop()
+                    if vertex not in visited:
+                        if vertex == goal:
+                            return path
+                        visited.add(vertex)
+                        for neighbor in graph[vertex]:
+                            stack.append((neighbor, path + [neighbor]))
+                """
+    
 
+####### End of DFS ##########
 
 ucs_tuple = ()  # our dict format is not usable for ucs algorithm. The algorithm uses graph and this for the convertion
 for item in keys_and_values:
@@ -171,7 +188,7 @@ while True:
         start = input("Please enter the start state : ")
         goal = input("Please enter the goal state : ")
         is_valid = False
-
+        """
         if (len(start)<1 and len(start)>1):
             print("Not valid! Please enter one start state.")
             continue
@@ -184,7 +201,8 @@ while True:
         elif re.search("[a-z]", goal):
             print("Not valid! Please enter an uppercase letter.")
             continue
-        elif re.search("[~!'^#+$%&½/{*?}[\-.,;:<£>]",start):
+        """
+        if (re.search("[~!'^#+$%&½/{*?}[\-.,;:<£>]",start)):
             print("Not valid! Please enter only letter.")
             continue
         elif re.search("[~!'^#+$%&½/{*?}[\-.,;:<£>]",goal):

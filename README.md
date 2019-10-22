@@ -53,9 +53,25 @@ https://rextester.com/GDQAJ78015
 
 ![image](https://cdn1.imggmi.com/uploads/2019/10/22/ac4426485e2869da67ce0d2d43de4df7-full.png)
 
+### Futoshiki Puzzle
+- Futoshiki is a board-based puzzle game, also known under the name Unequal.It is playable on a square board having a given fixed size (4x4 for example).
+- The purpose of the game is to discover the digits hidden inside the board's cells; each cell is filled with a digit between 1 and the board's size. On each row and column each digit appears exactly once; therefore, when revealed, the digits of the board form a so-called Latin square.
+- At the beginning of the game some digits might be revealed. The board might also contain some inequalities between the board cells; these inequalities must be respected and can be used as clues in order to discover the remaining hidden digits.
+- Each puzzle is guaranteed to have a solution and only one. In order to indicate a move, click the desired square and select a digit or the delete sign (X); you can also use the digits on your keyboard (in this case, the digit 0 is equivalent to the delete sign).
+
+
+![image](https://cdn1.imggmi.com/uploads/2019/10/22/99844e0a08ab50de0579df6f3922fc62-full.png)
+
+
 ### About Project II
 
 - Both code files should accept the given input files as "kakuro_input" and "futoshiki_input.txt".
 - After running both codes should write outputs into the files as "kakuro_output" and "futoshiki_output.txt"
+
+#### Resources 
+https://developers.google.com/optimization/cp/original_cp_solver
+https://www.kakuros.com/
+https://www.futoshiki.org/
+
 
 

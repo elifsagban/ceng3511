@@ -28,7 +28,7 @@ _Group Members:_
 
 ### About Project I
 
-The code should accept the given graph from the terminal and the three algorithms should search and find the shortest path.
+- The code should accept the given graph from the terminal and the three algorithms should search and find the shortest path.
 
 
 #### Resources
@@ -41,7 +41,7 @@ https://rextester.com/GDQAJ78015
 
 
 
-## Project II SolvingCSPs
+## Project II Solving CSPs
 
 
 ### Kakuro Puzzle

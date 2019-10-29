@@ -70,8 +70,11 @@ https://rextester.com/GDQAJ78015
 
 #### Resources 
 https://developers.google.com/optimization/cp/original_cp_solver
+
 https://www.kakuros.com/
+
 https://www.futoshiki.org/
+
 
 
 

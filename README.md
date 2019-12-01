@@ -73,5 +73,9 @@ https://developers.google.com/optimization/cp/original_cp_solver
 https://www.kakuros.com/
 https://www.futoshiki.org/
 
+## About Project III
 
+- This is about knapsack problem and solved by genetic algorithm. 
+- There are 3 files called, "w, c, v" that stores weight, capacity and value. 
+- Run the program such as "python knapsack.gy" and choose options as you like then output will be stored in out.txt
 

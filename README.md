@@ -51,7 +51,7 @@ https://rextester.com/GDQAJ78015
 - The board's squares need to be filled in with these digits in order to sum up to the specified numbers.
 - To solve Kakuros Puzzle using the same digit more than once to obtain a given sum is not allowed.
 
-![image](https://cdn1.imggmi.com/uploads/2019/10/22/ac4426485e2869da67ce0d2d43de4df7-full.png)
+![image](https://ibb.co/Cz0nZjZ)
 
 ### Futoshiki Puzzle
 - Futoshiki is a board-based puzzle game, also known under the name Unequal.It is playable on a square board having a given fixed size (4x4 for example).
@@ -60,7 +60,7 @@ https://rextester.com/GDQAJ78015
 - Each puzzle is guaranteed to have a solution and only one. In order to indicate a move, click the desired square and select a digit or the delete sign (X); you can also use the digits on your keyboard (in this case, the digit 0 is equivalent to the delete sign).
 
 
-![image](https://cdn1.imggmi.com/uploads/2019/10/22/99844e0a08ab50de0579df6f3922fc62-full.png)
+![image](https://ibb.co/qymF6Wc)
 
 
 ### About Project II

@@ -29,7 +29,7 @@ def euclideanDistance(instance1, instance2, length):
 
 def getNeighbors(trainingSet, testInstance, k):
     distances = []
-    length = len(testInstance)
+    length = len(testInstance) -1
     for x in range(len(trainingSet)):
         dist = euclideanDistance(testInstance, trainingSet[x], length)
         distances.append((trainingSet[x], dist))
@@ -62,11 +62,11 @@ def getAccuracy(testSet, predictions):
     return correct, (correct/float(len(testSet) )) * 100
 
 
-# prepare data
+
 
 print ('Train set: ' + repr(len(trainingSet)))
 print ('Test set: ' + repr(len(testSet)))
-# generate predictions
+
 y_coordinate = []
 k = 10
 k_neighbors_price_ranges = []
@@ -81,12 +81,11 @@ for j in range(1, k + 1):
     for i in range(len(k_neighbors_price_ranges)):
         result = getResponse(k_neighbors_price_ranges[i][0:j])
         predictions.append(result)
-            # print('Predicted: ' + str(result) + "  >>  ", "Actual: " + str(test_set[i][-1]))
     accuracy = getAccuracy(testSet, predictions)
     print('Accuracy: ' + str(accuracy) + "%\n")
     y_coordinate.append(accuracy)
 
-f = plt.figure(figsize=(10,6))
+f = plt.figure()
 plt.plot(range(1, 11),y_coordinate,color='blue', linestyle='dashed', marker='o',
          markerfacecolor='red', markersize=10)
 # plt.show()

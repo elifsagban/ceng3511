@@ -51,7 +51,6 @@ https://rextester.com/GDQAJ78015
 - The board's squares need to be filled in with these digits in order to sum up to the specified numbers.
 - To solve Kakuros Puzzle using the same digit more than once to obtain a given sum is not allowed.
 
-![image](https://ibb.co/Cz0nZjZ)
 
 ### Futoshiki Puzzle
 - Futoshiki is a board-based puzzle game, also known under the name Unequal.It is playable on a square board having a given fixed size (4x4 for example).
@@ -60,7 +59,6 @@ https://rextester.com/GDQAJ78015
 - Each puzzle is guaranteed to have a solution and only one. In order to indicate a move, click the desired square and select a digit or the delete sign (X); you can also use the digits on your keyboard (in this case, the digit 0 is equivalent to the delete sign).
 
 
-![image](https://ibb.co/qymF6Wc)
 
 
 ### About Project II
@@ -70,9 +68,7 @@ https://rextester.com/GDQAJ78015
 
 #### Resources 
 https://developers.google.com/optimization/cp/original_cp_solver
-
 https://www.kakuros.com/
-
 https://www.futoshiki.org/
 
 ## About Project III
@@ -82,3 +78,15 @@ https://www.futoshiki.org/
 - Run the program such as "python knapsack.gy" and choose options as you like then output will be stored in out.txt
 
 
+
+
+
+
+
+ ### Project V
+ 
+ - This project about k-means algorithm implementation without machine learning libraries. 
+ - The data set has two column, "income" and "spend" 
+ - Expected output: 
+ 
+ <a href="https://imgbb.com/"><img src="https://i.ibb.co/7rchHMr/plot-pdf.png" alt="plot-pdf" border="0"></a>

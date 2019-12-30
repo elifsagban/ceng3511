@@ -13,7 +13,6 @@ _Group Members:_
 
 - Traverse through one level of children nodes, then traverse through the level of grandchildren nodes (and so on..)
 
-
 ![image](https://camo.githubusercontent.com/81237833eeedea03b1f124ef97a2834f07e81e53/687474703a2f2f7777772e6373652e756e73772e6564752e61752f7e62696c6c772f4a757374736561726368312e676966)
 
 ### Depth First Search
@@ -71,7 +70,7 @@ https://developers.google.com/optimization/cp/original_cp_solver
 https://www.kakuros.com/
 https://www.futoshiki.org/
 
-## About Project III
+### About Project III
 
 - This is about knapsack problem and solved by genetic algorithm. 
 - There are 3 files called, "w, c, v" that stores weight, capacity and value. 
@@ -79,14 +78,25 @@ https://www.futoshiki.org/
 
 
 
+## Project IV Mobile Price Classification using KNN
+
+### About Project IV
+ - This project about implementing K nearest neighbours using python without any machine learning libraries.
+ - The data set has 21 columns, the last one is class.
+ - After running the code expected outputs are knn values with accuracy rates and the Plot graph of that values.
+
+#### Resources
+ - https://github.com/Asbetos/KNN/blob/master/knn.py
+ - https://machinelearningmastery.com/tutorial-to-implement-k-nearest-neighbors-in-python-from-scratch/
+ - https://www.analyticsvidhya.com/blog/2018/08/k-nearest-neighbor-introduction-regression-python/
 
 
+ ## Project V K-means in Action  
 
-
- ### Project V
+### About Project V
  
  - This project about k-means algorithm implementation without machine learning libraries. 
- - The data set has two column, "income" and "spend" 
+ - The data set has two columns, "income" and "spend" 
  - Expected output: 
  
  <a href="https://imgbb.com/"><img src="https://i.ibb.co/7rchHMr/plot-pdf.png" alt="plot-pdf" border="0"></a>
